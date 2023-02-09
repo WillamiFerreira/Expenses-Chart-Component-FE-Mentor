@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&display=swap');
 
 :root{
-    --mainRed: 'hsl(10, 79, 65, 100%)';
-    --mainBlue: 'hsl(186, 34, 60, 100%)';
+    --mainRed: hsl(10, 79, 65, 100%);
+    --mainBlue: hsl(186, 34, 60, 100%);
 
-    --darkBrown: '';
+    --darkBrown: hsl(25, 47, 15, 100%);
+    --brown: hsl(28, 19, 53, 100%);
+    --pale: hsl(27, 66%, 92%);
+    --veryPale: hsl(35, 100%, 95%);
 }
+
