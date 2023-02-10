@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&display=swap');
 
-:root{
+:root {
     --mainRed: hsl(10, 79, 65, 100%);
     --mainBlue: hsl(186, 34, 60, 100%);
 
@@ -10,3 +10,38 @@
     --veryPale: hsl(35, 100%, 95%);
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+body{
+    display: flex;
+    width: 100vw; height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    width: fit-content;
+    padding: 0px 23px;
+    margin: auto;
+
+}
+
+.container > div{
+    border-radius: 12px;
+    background-color: #D9D9D9;
+    width: 342px;
+}
+
+.my_balance_bg {
+    height: 97px;
+}
+
+.stats_bg {
+    height: 421px;
+}
